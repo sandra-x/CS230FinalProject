@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LinearNode
+comment1.params=
+comment1.target=LinearNode()
+comment2.params=elem
+comment2.target=LinearNode(java.lang.Object)
+comment3.params=
+comment3.target=LinearNode\ getNext()
+comment4.params=node
+comment4.target=void\ setNext(LinearNode)
+comment5.params=
+comment5.target=java.lang.Object\ getElement()
+comment6.params=elem
+comment6.target=void\ setElement(java.lang.Object)
+numComments=7

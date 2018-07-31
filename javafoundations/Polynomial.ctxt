@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Polynomial
+comment1.params=
+comment1.target=Polynomial()
+comment1.text=\n\ Creates\ a\ polynomial\ with\ no\ terms/\n
+comment2.params=
+comment2.target=LinkedQueue\ getQueue()
+comment2.text=\n\ Gets\ the\ queue\ of\ terms.\n\ \n\ @return\ LinkedQueue<Term>\ -\ termQueue\ instance\ variable\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ a\ string\ representing\ a\ polynomial\ using\ "\ +\ "\ between\ terms.\n\ Prints\ a\ message\ if\ queue\ is\ empty.\n\ \n\ @return\ String\ -\ String\ representation\ of\ polynomial\n
+comment4.params=next
+comment4.target=void\ addTerm(Term)
+comment4.text=\n\ Adds\ new\ term\ to\ polynomial\ queue\ while\ maintaining\ \n\ decreasing\ order\ of\ exponents.\n\ \n\ @param\ next\ -\ term\ to\ be\ added\n
+comment5.params=next\ temp
+comment5.target=void\ addEqualTerm(Term,\ LinkedQueue)
+comment5.text=\n\ Helper\ method\ for\ addTerm.\n\ Adds\ a\ term\ that\ is\ equal\ to\ the\ present\ term\ in\ the\ polynomial\ queue.\n\ \n\ @param\ next\ -\ term\ to\ be\ added\n\ @param\ LinkedQueue<Term>\ temp\ -\ temporary\ queue\ for\ storing\ terms\n
+comment6.params=next\ temp
+comment6.target=void\ addGreaterTerm(Term,\ LinkedQueue)
+comment6.text=\n\ Helper\ method\ for\ addTerm.\n\ Adds\ a\ term\ that\ is\ greater\ than\ the\ present\ term\ in\ the\ polynomial\ queue.\n\ \n\ @param\ next\ -\ term\ to\ be\ added\n\ @param\ LinkedQueue<Term>\ temp\ -\ temporary\ queue\ for\ storing\ terms\n
+comment7.params=p
+comment7.target=Polynomial\ addPolynomial(Polynomial)
+comment7.text=\n\ Adds\ two\ polynomials\ and\ returns\ a\ new\ polynomial\n\ that\ is\ the\ sum.\n\ \n\ @param\ p\ -\ polynomial\ to\ be\ added\ to\ this\ polynomial\n\ @return\ Polynomial\ -\ sum\ of\ both\ polynomials\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\n\ Main\ method\ for\ testing.\n
+numComments=9

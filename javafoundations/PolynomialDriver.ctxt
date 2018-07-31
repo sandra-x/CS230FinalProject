@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=PolynomialDriver
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ \n\ Main\ method\ for\ testing.\n\ \n
+comment2.params=termInput
+comment2.target=Polynomial\ readPolynomial(java.lang.String)
+comment2.text=\n\ Helper\ method\ that\ reads\ a\ polynomial\ from\ a\ String\ input.\n\ Separates\ polynomial\ input\ into\ Terms,then\ adds\ them\ to\ \n\ a\ new\ Polynomial.\n\ \n\ @param\ termInput\ -\ String\ of\ polynomial\n\ @return\ Polynomial\ -\ new\ polynomial\ based\ on\ input\n
+numComments=3
