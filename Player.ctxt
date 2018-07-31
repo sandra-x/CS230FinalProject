@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ A\ Player\ class\ that\ keeps\ track\ of\ the\ location\ of\ the\ player.\ The\ locations\ are\ kept\ as\ the\ ints\r\n\ for\ the\ x\ grid\ and\ y\ grid.\ It\ is\ used\ in\ the\ game\ class\ and\ the\ x,\ y\ changes\ according\ to\ the\ movement\r\n\ that\ takes\ place\ in\ game\ class.\ For\ example,\ if\ the\ user\ moves\ right,\ x\ increases\ by\ 1.\r\n\ \r\n\ @\ author\:\ Sandra\ Xu\r\n\ @\ version\:\ 5/17/2018\r\n\r\n
+comment1.params=
+comment1.target=Player()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CardLayoutTest
+comment1.params=
+comment1.target=CardLayoutTest()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ An\ actionListener\ class\ that\ switches\ the\ panels\ and\ stores\ information\ to\ a\ variable\ occasionally.\r\n\ \r\n\ \ HomePanel\:\ if\ the\ user\ selects\ a\ level,\ it\ switches\ to\ settingsPanel\ and\ the\ level\ is\ stored\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ a\ difficulty\ variable\ that\ is\ used\ to\ instantiate\ a\ gamePanel\r\n\ \ SettingsPanel\:\ if\ the\ user\ selects\ a\ setting,\ it\ switches\ to\ the\ instructionsPanel\ and\ the\ setting\ is\ stored\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ in\ a\ settings\ variables\ that\ is\ later\ used\ to\ instantiate\ a\ gamePanel\r\n\ \ InstructionsPanel\:\ if\ the\ user\ clicks\ the\ play\ button,\ the\ screen\ switches\ to\ gamePanel\ and\ the\ game\ starts\r\n\ \ GamePanel\:\ when\ the\ user\ clicks\ play\ again,\ it\ returns\ to\ the\ home\ screen.\ If\ the\ user\ clicks\ get\ hint\ button,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ gives\ out\ a\ hint.\r\n\ \r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=card
+comment4.target=void\ showCard(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getSetting()
+comment6.params=
+comment6.target=java.lang.String\ getDifficulty()
+comment7.params=
+comment7.target=void\ changeToGame()
+numComments=8

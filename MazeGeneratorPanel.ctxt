@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MazeGeneratorPanel
+comment1.params=width\ height
+comment1.target=MazeGeneratorPanel(int,\ int)
+comment2.params=
+comment2.target=void\ update()
+comment3.params=x\ y
+comment3.target=java.util.LinkedList\ getAdj(int,\ int)
+comment3.text=\n\ Returns\ a\ LinkedList\ of\ the\ adjacent\ tiles\ that\ are\ visited\n\ \n\ @\ param\ -\ int\ x,\ int\ y\:\ location\ of\ the\ tile\n\ @\ return\ -\ linked\ list\ of\ the\ tiles\ that\ are\ adjacent\ to\ the\ tile\ and\ are\ not\ visited\ yet\n\ \n
+comment4.params=x\ y
+comment4.target=void\ generateMaze(int,\ int)
+comment4.text=\n\ Generates\ a\ maze\ of\ the\ size\ the\ input\ specifies.\ The\ general\ idea\ is\ that\ you\ mark\ the\ current\ tile\ as\ visited,\ \n\ add\ it\ to\ a\ stack,\ and\ while\ there\ are\ unvisited\ cells,\ randomly\ move\ to\ an\ adjacent\ tile\ that\ is\ unvisited\ and\ repreat\ \n\ the\ same\ step.\ If\ there\ is\ no\ adjacent\ unvisited\ tile,\ the\ program\ backtracks\ by\ poping\ the\ indeces\ of\ the\ previous\ tiles\n\ out\ of\ the\ stack\ and\ moving\ back\ to\ a\ tile\ that\ has\ adjacent\ unvisited\ tiles.\n
+numComments=5

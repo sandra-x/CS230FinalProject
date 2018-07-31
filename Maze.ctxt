@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Maze
+comment0.text=\r\n\ A\ class\ that\ represents\ a\ maze.\ A\ maze\ is\ constructed\ as\ a\ 2d\ array\ of\ int\ in\ which\ each\ int\ (0,1,2,3,4,9)\r\n\ means\ different\ things.\ The\ integers\ in\ the\ array\ will\ refer\ to\ a\ tile\ that\ will\ be\ assigned\ in\r\n\ the\ GamePanel\ class.\r\n\ \r\n\ @\ author\:\ The\ 2D\ arrays\ were\ implemented\ by\ Kaori\ Hayashi.\ Most\ of\ the\ other\ parts\ were\ implemented\ by\ Sandra\ Xu.\r\n\ @\ version\:\ 2018/5/16\r\n\ \r\n
+comment1.params=difficulty
+comment1.target=Maze(java.lang.String)
+comment1.text=\r\n\ A\ constructor\ that\ takes\ in\ the\ level\ of\ maze\ and\ input\ and\ creates\ a\ 2D\ array\ maze.\ The\ size\r\n\ of\ maze\ differs\ by\ the\ level.\ The\ integers\ in\ the\ array\ will\ refer\ to\ a\ tile\ that\ will\ be\ assigned\ in\r\n\ the\ GamePanel\ class.\r\n\ \r\n\ 0\:\ not\ visited\r\n\ 1\:\ wall\r\n\ 2\:\ visited\r\n\ 3\:\ items\r\n\ 4\:\ current\ location\r\n\ 9\:\ goal\r\n\ \r\n\ @param\ -\ String\ difficulty\r\n
+comment2.params=
+comment2.target=int[][]\ clone()
+comment2.text=\r\n\ Clones\ the\ maze\ and\ returns\ the\ cloned\ maze\ 2D\ array\r\n\ @\ return\ -\ int[][]\r\n
+comment3.params=newMaze
+comment3.target=void\ setMaze(int[][])
+comment3.text=\r\n\ A\ setter\ method\ to\ set\ the\ maze\ to\ the\ input\ 2D\ array\ maze\r\n\ @\ param-\ 2d\ array\ of\ int\ that\ you\ want\ to\ set\ to\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ maze\r\n\ @\ return\ -\ String\r\n
+comment5.params=
+comment5.target=int\ getRows()
+comment6.params=
+comment6.target=int\ getCols()
+comment7.params=
+comment7.target=int\ getItems()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Path
+comment1.params=game
+comment1.target=Path(Game)
+comment1.text=\r\n\ Creates\ a\ Path\ that\ takes\ as\ a\ variable\ a\ Game\r\n\ \r\n\ @param\ game\ \ the\ Game\r\n
+comment2.params=
+comment2.target=javafoundations.LinkedStack\ findPath()
+comment2.text=\r\n\ Finds\ and\ returns\ the\ path\ that\ is\ represented\ as\ a\ vectors\ of\ ints.\ There\ are\ 5\ types\ of\ ints\r\n\ in\ the\ vector\ and\ each\ int\ represents\ the\ movement\ the\ user\ should\ take.\ This\ is\ a\ helper\ \r\n\ used\ in\ the\ giveHint()\ method\ below.\r\n\ 0\:\ no\ movement,\ goal\ reached\r\n\ 1\:\ move\ right\r\n\ 2\:\ move\ left\r\n\ 3\:\ move\ up\r\n\ 4\:\ move\ down\r\n\ \r\n\ @\ return\ -\ Vector\ representation\ of\ the\ path\ to\ goal\ from\ current\ location\r\n
+comment3.params=x\ y
+comment3.target=boolean\ hasValidMove(int,\ int)
+comment3.text=\r\n\ Checks\ to\ see\ if\ a\ tile\ contains\ a\ valid\ move.\ A\ valid\ move\ exists\ if\ a\ tile\ to\ the\ right,\ left,\ up,\ or\r\n\ down\ is\ an\ unvisited\ tile\ (items\ should\ also\ be\ valid\ but\ doesn't\ work).\ Used\ in\ the\ findPath()\ method.\r\n\ \r\n\ @param\ x,\ y\ \ the\ x\ and\ y\ coordinates\ of\ the\ tile\r\n
+comment4.params=
+comment4.target=java.lang.String\ giveHint()
+comment4.text=\r\n\ Returns\ a\ string\ that\ tells\ the\ user\ which\ path\ to\ take\ next\ as\ a\ hint.\r\n\ \r\n\ @\ return\ -\ the\ string\ representation\ of\ the\ next\ path\ to\ take\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Returns\ a\ string\ representation\ of\ the\ gameCopy.\ Used\ for\ testing.\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
